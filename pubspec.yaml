@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   firebase_core: ^1.21.1
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
@@ -59,9 +60,32 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    # assets / DB / papers:
+    - assets/DB/papers/bialogy.json
+    - assets/DB/papers/chemistry.json
+    - assets/DB/papers/chemistry.jtxt
+    - assets/DB/papers/maths.json
+    - assets/DB/papers/physics.json
+    - assets/DB/papers/test.dart
+    # assets / icons:
+    - assets/icons/code.svg
+    - assets/icons/contact.svg
+    - assets/icons/email.svg
+    - assets/icons/github.svg
+    - assets/icons/google.svg
+    - assets/icons/logout.svg
+    - assets/icons/menu.svg
+    - assets/icons/menuleft.svg
+    - assets/icons/peace.svg
+    - assets/icons/rate.svg
+    - assets/icons/trophyoutline.svg
+    - assets/icons/web.svg
+    # assets / images:
+    - assets/images/app_splash_logo.png
+    - assets/images/app_splash_logo.svg
+    - assets/images/bulb.svg
+    - assets/images/physics.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -74,10 +98,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/icons/AppIcons.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
