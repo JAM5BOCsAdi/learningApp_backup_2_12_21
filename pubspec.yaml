@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^1.21.1
   get: ^4.6.5
+  cloud_firestore: ^3.4.6
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +65,6 @@ flutter:
     # assets / DB / papers:
     - assets/DB/papers/biology.json
     - assets/DB/papers/chemistry.json
-    - assets/DB/papers/chemistry.jtxt
     - assets/DB/papers/maths.json
     - assets/DB/papers/physics.json
     - assets/DB/papers/test.dart

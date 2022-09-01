@@ -2,124 +2,116 @@
     "id": "ppr001",
     "title": "Physics",
     "image_url": "",
-    "Description": "Basic physics Multiple Choice Questions (MCQ) to practice basic physics quiz answers",
+    "Description": "Általános fizika kvíz.",
     "time_seconds": 900,
     
     "questions": [
         {
             "id": "ppr001q001",
-            "question": "Which one of the following is a good conductor of electricity?",
+            "question": "Hány erő hat a vízszintes asztalon nyugalomban lévő könyvre?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "Glass"
+                    "Answer": "0"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "Human body"
+                    "Answer": "4"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "Ebonite"
+                    "Answer": "3"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "Shellac"
+                    "Answer": "2"
+                }
+            ],
+            "correct_answer": "D"
+        },
+        {
+            "id": "ppr001q002",
+            "question": "Az alábbiak közük melyik érvényesül, mikor a kanyarodó autóban akaratlanul oldalra dőlünk?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Tehetetlenség"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Szabadesés"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "Felhajtóerő"
+                },
+                {
+                    "identifier": "D",
+                    "Answer": "Közegellenállás"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr001q003",
+            "question": "A gázoknak nincs tömegük.",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "Igaz"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "Hamis"
                 }
             ],
             "correct_answer": "B"
         },
         {
-            "id": "ppr001q002",
-            "question": "Which one of the following has maximum energy?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "Yellow light"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "Green light"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "Violet light"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "Red light"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
-            "id": "ppr001q003",
-            "question": "Which law is involved in the act of cleaning a carpet by beating it with a stick?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "First law of motion"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "Second law of motion"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "Law of conservation of mass"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "Law of conservation of energy"
-                }
-            ],
-            "correct_answer": "C"
-        },
-        {
             "id": "ppr001q004",
-            "question": "which of the following is a unit of eletric current:",
+            "question": "Melyik törvény írja le a felhajtóerő nagyságát?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "ohm"
+                    "Answer": "Pascal törvénye"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "volt"
+                    "Answer": "Newton I. törvénye"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "watt"
+                    "Answer": "Newton II. törvénye"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "amp"
+                    "Answer": "Arkhimédész törvénye"
                 }
             ],
             "correct_answer": "D"
         },
         {
             "id": "ppr001q005",
-            "question": "When an object is in motion, it's ................... must change.?",
+            "question": "A szabadon eső test gyorsulása ...",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "Shapen"
+                    "Answer": "9,81 m/s2"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "Size"
+                    "Answer": "3,14 m/s2"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "Acceleration"
+                    "Answer": "14 cm/s"
                 },
                 {
                     "identifier": "D",
-                    "Answer": "Position"
+                    "Answer": "kiszámíthatatlan"
                 }
             ],
-            "correct_answer": "D"
+            "correct_answer": "A"
         }
     ]
 }

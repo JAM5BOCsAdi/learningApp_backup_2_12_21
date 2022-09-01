@@ -1,105 +1,51 @@
 {
     "id": "ppr003",
-    "title": "Maths",
+    "title": "Matematika",
     "image_url": "",
-    "Description": "Basic Maths Multiple Choice Questions (MCQ) to practice basic Maths quiz answers",
+    "Description": "Általános matematika kvíz.",
     "time_seconds": 900,
     "questions": [
         {
             "id": "ppr003q001",
-            "question": "Jenna has 82 apples. She gives Sam 28 apples. How many apples does Jenna have now?",
+            "question": "Egy háromszög belső szögeinek aránya 2:3:7.\nHány fokos a háromszög legkisebb szöge?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "45"
+                    "Answer": "30"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "108"
+                    "Answer": "15"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "54"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "37"
+                    "Answer": "45"
                 }
             ],
-            "correct_answer": "C"
+            "correct_answer": "A"
         },
         {
             "id": "ppr003q002",
-            "question": "Max and Billy went to a farm! Max collected 18 eggs and Billy collected 29 eggs. How many eggs did they collect in total.",
+            "question": "Hány olyan egész szám van, amelynek az abszolút értéke kisebb 6-nál?",
             "answers": [
                 {
                     "identifier": "A",
-                    "Answer": "74"
+                    "Answer": "Végtelen"
                 },
                 {
                     "identifier": "B",
-                    "Answer": "22"
+                    "Answer": "6"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "80"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "47"
-                }
-            ],
-            "correct_answer": "D"
-        },
-        {
-            "id": "ppr003q003",
-            "question": "what is 2/10 +15/100 equal?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "17"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "35/100"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "30/100"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "17/100"
-                }
-            ],
-            "correct_answer": "B"
-        },
-        {
-            "id": "ppr003q004",
-            "question": "How many times greater is 2,340 than 234?",
-            "answers": [
-                {
-                    "identifier": "A",
-                    "Answer": "20 times"
-                },
-                {
-                    "identifier": "B",
-                    "Answer": "100 times"
-                },
-                {
-                    "identifier": "C",
-                    "Answer": "10 times"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "1 time"
+                    "Answer": "11"
                 }
             ],
             "correct_answer": "C"
         },
         {
-            "id": "ppr003q005",
-            "question": "How many sides does a quadrilateral have?",
+            "id": "ppr003q003",
+            "question": "Hányadik hatványra kell emelni a 2-t, hogy 512-t kapjunk?",
             "answers": [
                 {
                     "identifier": "A",
@@ -107,18 +53,52 @@
                 },
                 {
                     "identifier": "B",
-                    "Answer": "3"
+                    "Answer": "9"
                 },
                 {
                     "identifier": "C",
-                    "Answer": "2"
-                },
-                {
-                    "identifier": "D",
-                    "Answer": "4"
+                    "Answer": "10"
                 }
             ],
-            "correct_answer": "D"
+            "correct_answer": "B"
+        },
+        {
+            "id": "ppr003q004",
+            "question": "Egy 80 grammos csokoládé tömegének 35 százaléka kakaó. Hány gramm kakaó van ebben a csokoládéban?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "28 g"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "24 g"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "32 g"
+                }
+            ],
+            "correct_answer": "A"
+        },
+        {
+            "id": "ppr003q005",
+            "question": "Egy mértani sorozat második tagja 6, harmadik tagja –18. Mi a sorozat ötödik tagja?",
+            "answers": [
+                {
+                    "identifier": "A",
+                    "Answer": "-36"
+                },
+                {
+                    "identifier": "B",
+                    "Answer": "-162"
+                },
+                {
+                    "identifier": "C",
+                    "Answer": "-124"
+                }
+            ],
+            "correct_answer": "B"
         }
     ]
 }

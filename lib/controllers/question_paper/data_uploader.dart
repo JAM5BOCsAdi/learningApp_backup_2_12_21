@@ -1,8 +1,10 @@
 import 'dart:convert';
 
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:learning_app/models/question_paper_model.dart';
 
 /// Load DATA from [.json] files
 class DataUploader extends GetxController {
@@ -27,11 +29,16 @@ class DataUploader extends GetxController {
     final papersInAssets = manifestMap.keys.where((path) => path.startsWith("assets/DB/papers") && path.contains(".json")).toList();
     print(papersInAssets);
 
+    List<QuestionPaperModel> questionPapers = [];
     // ############################ READ the [paperInAssets'] contents ############################ //
     for (var paper in papersInAssets) {
       // We need to pass a "root" [rootBundle.loadString(*root*)], and each of the contents' root is in the "paper" variable.
       String stringPaperContent = await rootBundle.loadString(paper);
+      questionPapers.add(QuestionPaperModel.fromJson(json.decode(stringPaperContent)));
       print(stringPaperContent);
     }
+    // print("Items number ${questionPapers[0].description}");
+    final fireStore = FirebaseFirestore.instance;
+    var batch = fireStore.batch();
   }
 }
