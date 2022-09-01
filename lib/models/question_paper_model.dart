@@ -1,4 +1,4 @@
-/// The model of nested levels in a [.json] file. FE: bia
+/// The model of nested levels in a [.json] file. F.E.: biology
 class QuestionPaperModel {
   String id;
   String title;
